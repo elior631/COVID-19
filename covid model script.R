@@ -165,5 +165,5 @@ logit_last_fit %>%
 logit_last_fit %>% 
   pluck(".workflow", 1) %>%   
   pull_workflow_fit() %>% 
-  vip(num_features = 10)
+  vip(num_features = 10,geom = c("col", "point", "boxplot", "violin"), color = "yellow", fill = "lightgreen", alpha = 0.7 )
 
