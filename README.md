@@ -2,7 +2,7 @@
 Using published [data](https://data.gov.il/dataset/covid-19/resource/d337959a-020a-4ed3-84f7-fca182292308) from the Israeli Ministry of Health. I ran a prediction modelto the odds of having the Coronavirus according to key symptoms. The data contains ~15 observations of tests in Israel.
 After the data wrangling and cleaning, Here's some (nice) mosaic plots to give us some insight about the data before we start the prediction analysis:
 
-<a><img src="https://github.com/elior631/COVID-19/blob/master/Rplot-%20cough.png?raw=true" alt="Cough" align="right" width="140" height="100" /></a>
+<a><img src="https://github.com/elior631/COVID-19/blob/master/Rplot-%20cough.png?raw=true" alt="Cough" align="right" width="300" height="300" /></a>
 
 
 We can see very nicely from both figures that as expected, the Fever is a good indication for the virus. Also, the Cough can be a good predictor. Probably the interaction of thetwo features can be used as a good predictor. However, let's give the algorithm to lead us to that conclusion.
