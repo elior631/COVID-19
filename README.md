@@ -4,7 +4,7 @@ After the data wrangling and cleaning, Here's some (nice) mosaic plots to give u
 
 <a><img src="https://github.com/elior631/COVID-19/blob/master/Rplot-%20cough.png?raw=true" alt="Cough" width="400" height="300" /></a>
 
-<a><img src="https://github.com/elior631/COVID-19/blob/master/Rplot-fever%20-mosaic.png?raw=true" alt="Fever" width="400" height="300" /></a>
+<a><img src="https://github.com/elior631/COVID-19/blob/master/Rplot-fever%20-mosaic.png?raw=true" alt="Fever" align="right" width="400" height="300" /></a>
 
 
 We can see very nicely from both figures that as expected, the Fever is a good indication for the virus. Also, the Cough can be a good predictor. Probably the interaction of thetwo features can be used as a good predictor. However, let's give the algorithm to lead us to that conclusion.
